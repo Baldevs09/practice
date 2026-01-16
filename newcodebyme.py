@@ -1,4 +1,4 @@
-#QUESTION 8
+#QUESTION 3
 Customer_Id=int(input("Customer Id"))
 Unit=int(input("Unit Consumed:"))
 Rate=float(input("Rate per unit:"))

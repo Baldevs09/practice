@@ -1,9 +1,17 @@
-#QUESTION 8
-Customer_Id=int(input("Customer Id"))
-Unit=int(input("Unit Consumed:"))
-Rate=float(input("Rate per unit:"))
-Total_Bill=Unit*Rate
-print("Customer_Id",Customer_Id)
-print("Unit Consumed:",Unit)
-print("Rate per unit:",Rate)
-print("Total_Bill:%.2f"%Total_Bill)
+a,b,c="Laptop",59999.99,True
+print(a,b,c,sep=" ")
+p,pr,av=input().split()
+print("Product Name:",p)
+print("Price",pr)
+print("Availability",av)
+
+a=int(input())
+b=str(input())
+c=float(input())
+d=int(input())
+e=float(input())
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))

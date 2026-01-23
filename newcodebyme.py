@@ -1,5 +1,4 @@
-QUESTION =2
-a=int(input("Total Candies:"))
-b=int(input("Friends:"))
-print("Each friend gets ",a//b,"Candies")
-print("Left Candies:",a%b)
+QUESTION =3
+a=int(input("Fuel Efficiency:"))
+b=int(input("Fuel Amount:"))
+print("Total Distance:",a*b,"Km")

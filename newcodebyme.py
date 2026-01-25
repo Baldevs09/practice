@@ -1,5 +1,6 @@
-QUESTION =4
-a=int(input("Movie Duration:"))
-b=int(input("Total Time:"))
-print("You can watch:",b//a,"Full movies.")
-print("Time left after marathon:",b%a,"minitues.")
+QUESTION =5
+a=int(input("Daliy Accommodation Cost:"))
+b=int(input("Daliy food cost:"))
+c=int(input("Daliy Entertainment Cost:"))
+d=int(input("Number of Days:"))
+print("Total trip cost is :",(a+b+c)*7)

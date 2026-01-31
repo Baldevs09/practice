@@ -1,5 +1,7 @@
-
-
-a,b,c=map(float,input().split(" "))
-d=a+b+c
-print(d)
+a=int(input("enter the value:"))
+if(a>=0):
+    print("Positive")
+    print(a)
+else:
+    print("negative")
+    print(a)

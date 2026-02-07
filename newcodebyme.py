@@ -1,5 +1,9 @@
 a=int(input(""))
-if (a%4==0) or (a%100!=0 and a%400==0):
-    print("leap year")
+b=int(input(""))
+c=int(input(""))
+if a>b and a>c:
+    print("a is larger number",a)
+elif(b>c):
+    print("b is larger number",b)
 else:
-    print("not a leap year")
+    print("c is larger number",c)

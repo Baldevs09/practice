@@ -1,9 +1,13 @@
-a=int(input(""))
-b=int(input(""))
-c=int(input(""))
-if a>b and a>c:
-    print("a is larger number",a)
-elif(b>c):
-    print("b is larger number",b)
+temp=int(input(""))
+if temp<0:
+    print("Freezing weather")
+elif(0>temp<10):
+    print("Very Cold weather")
+elif(10>temp<20):
+    print("Cold weather")
+elif(20>temp<30):
+    print("Normal in temp")
+elif(30>temp<40):
+    print("its hot")
 else:
-    print("c is larger number",c)
+    print("very hot")

@@ -1,13 +1,6 @@
-temp=int(input(""))
-if temp<0:
-    print("Freezing weather")
-elif(0>temp<10):
-    print("Very Cold weather")
-elif(10>temp<20):
-    print("Cold weather")
-elif(20>temp<30):
-    print("Normal in temp")
-elif(30>temp<40):
-    print("its hot")
-else:
-    print("very hot")
+a,b,c=map(float,input().split())
+print("Price of Book 1:",a)
+print("Price of Book 2:",b)
+print("Price of Book 3:",c)
+total=a+b+c
+print("Total Amount:",total)

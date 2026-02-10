@@ -1,7 +1,6 @@
-a,b,c=map(float,input().split())
-print("Price of Book 1:",a)
-print("Price of Book 2:",b)
-print("Price of Book 3:",c)
+a,b,c=map(int,input().split())
+print("Mathematics:",a)
+print("Science:",b)
+print("English:",c)
 total=a+b+c
-print("Total Amount:",total)
-
+print("Total Score:",total)

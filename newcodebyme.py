@@ -1,3 +1,3 @@
-a=45
-b=56
-print(a+b)
+a=int(input())
+b=int(input())
+print(a-b)

@@ -1,2 +1,6 @@
-a,b=map(int,input().split())
-print("Total money saving after",b,"weeks:",a*b)
+a,b,c,d,e=input().split()
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))

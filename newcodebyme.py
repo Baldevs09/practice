@@ -1,6 +1,7 @@
-a,b,c,d,e=input().split()
-print(type(a))
-print(type(b))
-print(type(c))
-print(type(d))
-print(type(e))
+n=int(input())
+i=1
+fact=1
+while i<=n:
+    fact*=i
+    i+=1
+print(fact)

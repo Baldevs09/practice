@@ -1,7 +1,3 @@
-n=int(input())
-i=1
-fact=1
-while i<=n:
-    fact*=i
-    i+=1
-print(fact)
+li=[23,45,67,89,70]
+li[1]=456
+print(li)

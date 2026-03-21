@@ -1,2 +1,2 @@
-l=[]
-print(l)
+name="baldevsingh"
+print(len(name))
